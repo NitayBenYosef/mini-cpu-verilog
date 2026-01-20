@@ -69,9 +69,6 @@ Each instruction is 16 bits wide and divided as follows:
 [9:8] Source register (rs)
 [7:0] Immediate value (imm8)
 
-yaml
-Copy code
-
 This simple format allowed me to implement arithmetic and branching instructions while
 keeping decode logic straightforward.
 
@@ -130,9 +127,6 @@ SUB R0, R1
 BNE R0, R3, loop
 HALT
 
-yaml
-Copy code
-
 Expected result:
 
 - R0 = 0  
@@ -175,26 +169,23 @@ that the control logic and verification are fully understood.
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
-mini-cpu-verilog/
-├── rtl/
-│ ├── mini_cpu.v
-│ └── mini_cpu_wrapper_sim.v
-│
-├── tb/
-│ └── mini_cpu_demo_TB.v
-│
-├── docs/
-│ └── images/
-│ ├── Block_Diagram_Full_System.jpeg
-│ ├── Simulation_Waveform.jpeg
-│ └── TCL_Console_results.jpeg
-│
-└── README.md
-
-yaml
-Copy code
+    mini-cpu-verilog/
+    ├── rtl/
+    │   ├── mini_cpu.v
+    │   └── mini_cpu_wrapper_sim.v
+    │
+    ├── tb/
+    │   └── mini_cpu_demo_TB.v
+    │
+    ├── docs/
+    │   └── images/
+    │       ├── Block_Diagram_Full_System.jpeg
+    │       ├── Simulation_Waveform.jpeg
+    │       └── TCL_Console_results.jpeg
+    │
+    └── README.md
 
 ---
 
