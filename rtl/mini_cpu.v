@@ -23,7 +23,7 @@ module mini_cpu(
 	output wire [2:0]  dbg_state
 	);
 
-  
+
 // Registers
 reg [15:0] IR;
 reg [7:0] regis [0:3];
