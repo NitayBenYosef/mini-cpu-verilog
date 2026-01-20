@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 module mini_cpu_wrapper_sim(
-    
+
     input wire clk,
     input wire rst,
     input wire en,
