@@ -93,7 +93,6 @@ Expected result:
 ## 📁 Repository Structure
 
 mini-cpu-verilog/
-│
 ├── rtl/
 │ ├── mini_cpu.v
 │ └── mini_cpu_wrapper_sim.v
@@ -104,11 +103,10 @@ mini-cpu-verilog/
 ├── docs/
 │ └── images/
 │ ├── Block_Diagram_Full_System.jpeg
-│ └── Simulation_Waveform.jpeg
-| └── TCL_Console_results.jpeg
+│ ├── Simulation_Waveform.jpeg
+│ └── TCL_Console_results.jpeg
 │
 └── README.md
-
 ---
 
 ## 🖼️ Visuals
